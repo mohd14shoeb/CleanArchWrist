@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3FFE9B925398CDA00790BFB /* CleanWarch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3FFE9B825398CDA00790BFB /* CleanWarch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3FFE9BF25398CDA00790BFB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FFE9BD25398CDA00790BFB /* Interface.storyboard */; };
+		D3FFE9C125398CDB00790BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FFE9C025398CDB00790BFB /* Assets.xcassets */; };
+		D3FFE9C825398CDC00790BFB /* CleanWarch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3FFE9C725398CDC00790BFB /* CleanWarch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3FFE9CD25398CDC00790BFB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFE9CC25398CDC00790BFB /* InterfaceController.swift */; };
+		D3FFE9CF25398CDC00790BFB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFE9CE25398CDC00790BFB /* ExtensionDelegate.swift */; };
+		D3FFE9D125398CDC00790BFB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFE9D025398CDC00790BFB /* NotificationController.swift */; };
+		D3FFE9D325398CDC00790BFB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFE9D225398CDC00790BFB /* ComplicationController.swift */; };
+		D3FFE9D525398CDC00790BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FFE9D425398CDC00790BFB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3FFE9BA25398CDA00790BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FFE9AE25398CD900790BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FFE9B725398CDA00790BFB;
+			remoteInfo = "CleanWarch WatchKit App";
+		};
+		D3FFE9C925398CDC00790BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FFE9AE25398CD900790BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FFE9C625398CDC00790BFB;
+			remoteInfo = "CleanWarch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3FFE9DD25398CDC00790BFB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3FFE9C825398CDC00790BFB /* CleanWarch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FFE9E125398CDC00790BFB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D3FFE9B925398CDA00790BFB /* CleanWarch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3FFE9B425398CD900790BFB /* CleanWarch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanWarch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FFE9B825398CDA00790BFB /* CleanWarch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanWarch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FFE9BE25398CDA00790BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D3FFE9C025398CDB00790BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FFE9C225398CDB00790BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FFE9C725398CDC00790BFB /* CleanWarch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CleanWarch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FFE9CC25398CDC00790BFB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D3FFE9CE25398CDC00790BFB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D3FFE9D025398CDC00790BFB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D3FFE9D225398CDC00790BFB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D3FFE9D425398CDC00790BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FFE9D625398CDC00790BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FFE9D725398CDC00790BFB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D3FFEA03253994B700790BFB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3FFE9C425398CDC00790BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3FFE9AD25398CD900790BFB = {
+			isa = PBXGroup;
+			children = (
+				D3FFEA03253994B700790BFB /* README.md */,
+				D3FFE9BC25398CDA00790BFB /* CleanWarch WatchKit App */,
+				D3FFE9CB25398CDC00790BFB /* CleanWarch WatchKit Extension */,
+				D3FFE9B525398CD900790BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3FFE9B525398CD900790BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFE9B425398CD900790BFB /* CleanWarch.app */,
+				D3FFE9B825398CDA00790BFB /* CleanWarch WatchKit App.app */,
+				D3FFE9C725398CDC00790BFB /* CleanWarch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3FFE9BC25398CDA00790BFB /* CleanWarch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFE9BD25398CDA00790BFB /* Interface.storyboard */,
+				D3FFE9C025398CDB00790BFB /* Assets.xcassets */,
+				D3FFE9C225398CDB00790BFB /* Info.plist */,
+			);
+			path = "CleanWarch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D3FFE9CB25398CDC00790BFB /* CleanWarch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFE9CC25398CDC00790BFB /* InterfaceController.swift */,
+				D3FFE9CE25398CDC00790BFB /* ExtensionDelegate.swift */,
+				D3FFE9D025398CDC00790BFB /* NotificationController.swift */,
+				D3FFE9D225398CDC00790BFB /* ComplicationController.swift */,
+				D3FFE9D425398CDC00790BFB /* Assets.xcassets */,
+				D3FFE9D625398CDC00790BFB /* Info.plist */,
+				D3FFE9D725398CDC00790BFB /* PushNotificationPayload.apns */,
+			);
+			path = "CleanWarch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3FFE9B325398CD900790BFB /* CleanWarch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FFE9E225398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch" */;
+			buildPhases = (
+				D3FFE9B225398CD900790BFB /* Resources */,
+				D3FFE9E125398CDC00790BFB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FFE9BB25398CDA00790BFB /* PBXTargetDependency */,
+			);
+			name = CleanWarch;
+			productName = CleanWarch;
+			productReference = D3FFE9B425398CD900790BFB /* CleanWarch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D3FFE9B725398CDA00790BFB /* CleanWarch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FFE9DE25398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch WatchKit App" */;
+			buildPhases = (
+				D3FFE9B625398CDA00790BFB /* Resources */,
+				D3FFE9DD25398CDC00790BFB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FFE9CA25398CDC00790BFB /* PBXTargetDependency */,
+			);
+			name = "CleanWarch WatchKit App";
+			productName = "CleanWarch WatchKit App";
+			productReference = D3FFE9B825398CDA00790BFB /* CleanWarch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D3FFE9C625398CDC00790BFB /* CleanWarch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FFE9DA25398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch WatchKit Extension" */;
+			buildPhases = (
+				D3FFE9C325398CDC00790BFB /* Sources */,
+				D3FFE9C425398CDC00790BFB /* Frameworks */,
+				D3FFE9C525398CDC00790BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CleanWarch WatchKit Extension";
+			productName = "CleanWarch WatchKit Extension";
+			productReference = D3FFE9C725398CDC00790BFB /* CleanWarch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3FFE9AE25398CD900790BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D3FFE9B325398CD900790BFB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D3FFE9B725398CDA00790BFB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					D3FFE9C625398CDC00790BFB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D3FFE9B125398CD900790BFB /* Build configuration list for PBXProject "CleanWarch" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3FFE9AD25398CD900790BFB;
+			productRefGroup = D3FFE9B525398CD900790BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FFE9B325398CD900790BFB /* CleanWarch */,
+				D3FFE9B725398CDA00790BFB /* CleanWarch WatchKit App */,
+				D3FFE9C625398CDC00790BFB /* CleanWarch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3FFE9B225398CD900790BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FFE9B625398CDA00790BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FFE9C125398CDB00790BFB /* Assets.xcassets in Resources */,
+				D3FFE9BF25398CDA00790BFB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FFE9C525398CDC00790BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FFE9D525398CDC00790BFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3FFE9C325398CDC00790BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FFE9D125398CDC00790BFB /* NotificationController.swift in Sources */,
+				D3FFE9D325398CDC00790BFB /* ComplicationController.swift in Sources */,
+				D3FFE9CF25398CDC00790BFB /* ExtensionDelegate.swift in Sources */,
+				D3FFE9CD25398CDC00790BFB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3FFE9BB25398CDA00790BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FFE9B725398CDA00790BFB /* CleanWarch WatchKit App */;
+			targetProxy = D3FFE9BA25398CDA00790BFB /* PBXContainerItemProxy */;
+		};
+		D3FFE9CA25398CDC00790BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FFE9C625398CDC00790BFB /* CleanWarch WatchKit Extension */;
+			targetProxy = D3FFE9C925398CDC00790BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3FFE9BD25398CDA00790BFB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FFE9BE25398CDA00790BFB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3FFE9D825398CDC00790BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		D3FFE9D925398CDC00790BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		D3FFE9DB25398CDC00790BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRE923483J;
+				INFOPLIST_FILE = "CleanWarch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.laura.CleanWarch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		D3FFE9DC25398CDC00790BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRE923483J;
+				INFOPLIST_FILE = "CleanWarch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.laura.CleanWarch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		D3FFE9DF25398CDC00790BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRE923483J;
+				IBSC_MODULE = CleanWarch_WatchKit_Extension;
+				INFOPLIST_FILE = "CleanWarch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = es.laura.CleanWarch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		D3FFE9E025398CDC00790BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LRE923483J;
+				IBSC_MODULE = CleanWarch_WatchKit_Extension;
+				INFOPLIST_FILE = "CleanWarch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = es.laura.CleanWarch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		D3FFE9E325398CDC00790BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRE923483J;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.laura.CleanWarch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3FFE9E425398CDC00790BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LRE923483J;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.laura.CleanWarch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3FFE9B125398CD900790BFB /* Build configuration list for PBXProject "CleanWarch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FFE9D825398CDC00790BFB /* Debug */,
+				D3FFE9D925398CDC00790BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FFE9DA25398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FFE9DB25398CDC00790BFB /* Debug */,
+				D3FFE9DC25398CDC00790BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FFE9DE25398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FFE9DF25398CDC00790BFB /* Debug */,
+				D3FFE9E025398CDC00790BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3FFE9E225398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FFE9E325398CDC00790BFB /* Debug */,
+				D3FFE9E425398CDC00790BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3FFE9AE25398CD900790BFB /* Project object */;
+}
