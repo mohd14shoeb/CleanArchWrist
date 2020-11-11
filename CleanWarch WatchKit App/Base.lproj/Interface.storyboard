@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17156" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="17506" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
     <device id="watch38"/>
     <dependencies>
         <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17034"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="17500"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
@@ -13,12 +13,20 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="CleanWarch_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label alignment="left" text="Hello, World!" id="6Ma-Qh-P6L"/>
-                        <button width="1" alignment="left" title="Button" id="qEj-ff-Ozs">
+                        <button width="1" alignment="left" title="Start playing" id="qEj-ff-Ozs">
                             <connections>
-                                <action selector="didPressButton" destination="AgC-eL-Hgc" id="Pw5-Bm-Wak"/>
+                                <action selector="didPressPlayButton" destination="AgC-eL-Hgc" id="eP4-o7-9HK"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Force crash" id="Kaw-CG-NBg">
+                            <connections>
+                                <action selector="didPressCrashButton" destination="AgC-eL-Hgc" id="k53-RY-fFx"/>
                             </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="playButton" destination="qEj-ff-Ozs" id="rLe-sZ-n9G"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
