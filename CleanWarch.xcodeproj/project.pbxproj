@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A16CAB31FCCFB7045495B4 /* Pods_CleanWarch_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A995F75C3BE2ED317E096862 /* Pods_CleanWarch_WatchKit_App.framework */; };
-		49862629704F13FF1BB00109 /* Pods_CleanWarch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5EAF5D842492D6C22F8D74 /* Pods_CleanWarch_WatchKit_Extension.framework */; };
-		AC5052F4E7D3ED9B1211458B /* Pods_CleanWarch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14A171F22054D93B37A4B533 /* Pods_CleanWarch.framework */; };
+		D3309835256D1DB7009281D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D3309834256D1DB7009281D3 /* Alamofire */; };
+		D330983C256D1E46009281D3 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D330983B256D1E46009281D3 /* FirebaseCrashlytics */; };
+		D330984B256D1FD1009281D3 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D330984A256D1FD1009281D3 /* FirebaseCrashlytics */; };
+		D3309851256D2130009281D3 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D3309850256D2130009281D3 /* FirebaseCrashlytics */; };
+		D3309857256D2134009281D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D3309856256D2134009281D3 /* Alamofire */; };
+		D330985D256D215B009281D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D330985C256D215B009281D3 /* Alamofire */; };
+		D330985F256D2161009281D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D330985E256D2161009281D3 /* Alamofire */; };
+		D3309861256D2165009281D3 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D3309860256D2165009281D3 /* FirebaseCrashlytics */; };
 		D37A6DA7255C008300E52723 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37A6DA6255C008300E52723 /* IntentHandler.swift */; };
 		D37A6DAB255C008300E52723 /* CleanWarch Intents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D37A6DA4255C008300E52723 /* CleanWarch Intents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D3915D462542E74A00610A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3915D432542E74A00610A30 /* GoogleService-Info.plist */; };
@@ -85,15 +90,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14A171F22054D93B37A4B533 /* Pods_CleanWarch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanWarch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		302514707D9CCE8E12091FD1 /* Pods-CleanWarch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWarch.release.xcconfig"; path = "Target Support Files/Pods-CleanWarch/Pods-CleanWarch.release.xcconfig"; sourceTree = "<group>"; };
-		36348B25EC2D146918E6423C /* Pods-CleanWarch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWarch WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-CleanWarch WatchKit App/Pods-CleanWarch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
-		4F0FCDB4196096C282B793B3 /* Pods-CleanWarch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWarch WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-CleanWarch WatchKit Extension/Pods-CleanWarch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		5E83D169531463BA714438EA /* Pods-CleanWarch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWarch WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-CleanWarch WatchKit Extension/Pods-CleanWarch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		6A30405D9AFD7093D1984131 /* Pods-CleanWarch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWarch.debug.xcconfig"; path = "Target Support Files/Pods-CleanWarch/Pods-CleanWarch.debug.xcconfig"; sourceTree = "<group>"; };
-		704B315F0359F78B8E584559 /* Pods-CleanWarch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanWarch WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-CleanWarch WatchKit App/Pods-CleanWarch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
-		7F5EAF5D842492D6C22F8D74 /* Pods_CleanWarch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanWarch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A995F75C3BE2ED317E096862 /* Pods_CleanWarch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanWarch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32BA1BC255BE9AC004B7603 /* CleanWarch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CleanWarch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		D37A6DA4255C008300E52723 /* CleanWarch Intents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CleanWarch Intents.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37A6DA6255C008300E52723 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
@@ -120,7 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A16CAB31FCCFB7045495B4 /* Pods_CleanWarch_WatchKit_App.framework in Frameworks */,
+				D3309851256D2130009281D3 /* FirebaseCrashlytics in Frameworks */,
+				D3309857256D2134009281D3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5052F4E7D3ED9B1211458B /* Pods_CleanWarch.framework in Frameworks */,
+				D3309835256D1DB7009281D3 /* Alamofire in Frameworks */,
+				D330983C256D1E46009281D3 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D330985F256D2161009281D3 /* Alamofire in Frameworks */,
+				D3309861256D2165009281D3 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,19 +143,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49862629704F13FF1BB00109 /* Pods_CleanWarch_WatchKit_Extension.framework in Frameworks */,
+				D330984B256D1FD1009281D3 /* FirebaseCrashlytics in Frameworks */,
+				D330985D256D215B009281D3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9365DE397BD82B95A8DF0E74 /* Frameworks */ = {
+		D3309849256D1FD1009281D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				14A171F22054D93B37A4B533 /* Pods_CleanWarch.framework */,
-				A995F75C3BE2ED317E096862 /* Pods_CleanWarch_WatchKit_App.framework */,
-				7F5EAF5D842492D6C22F8D74 /* Pods_CleanWarch_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,8 +175,7 @@
 				D3FFE9CB25398CDC00790BFB /* CleanWarch WatchKit Extension */,
 				D37A6DA5255C008300E52723 /* CleanWarch Intents */,
 				D3FFE9B525398CD900790BFB /* Products */,
-				D5DB9E7C1BACDF77DD2586BC /* Pods */,
-				9365DE397BD82B95A8DF0E74 /* Frameworks */,
+				D3309849256D1FD1009281D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,19 +216,6 @@
 			path = "CleanWarch WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		D5DB9E7C1BACDF77DD2586BC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6A30405D9AFD7093D1984131 /* Pods-CleanWarch.debug.xcconfig */,
-				302514707D9CCE8E12091FD1 /* Pods-CleanWarch.release.xcconfig */,
-				36348B25EC2D146918E6423C /* Pods-CleanWarch WatchKit App.debug.xcconfig */,
-				704B315F0359F78B8E584559 /* Pods-CleanWarch WatchKit App.release.xcconfig */,
-				5E83D169531463BA714438EA /* Pods-CleanWarch WatchKit Extension.debug.xcconfig */,
-				4F0FCDB4196096C282B793B3 /* Pods-CleanWarch WatchKit Extension.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +232,10 @@
 			dependencies = (
 			);
 			name = "CleanWarch Intents";
+			packageProductDependencies = (
+				D330985E256D2161009281D3 /* Alamofire */,
+				D3309860256D2165009281D3 /* FirebaseCrashlytics */,
+			);
 			productName = "CleanWarch Intents";
 			productReference = D37A6DA4255C008300E52723 /* CleanWarch Intents.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -256,7 +244,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3FFE9E225398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch" */;
 			buildPhases = (
-				596D139734B02E02742D2AE8 /* [CP] Check Pods Manifest.lock */,
 				D3FFE9B225398CD900790BFB /* Resources */,
 				D3FFE9E125398CDC00790BFB /* Embed Watch Content */,
 				85DBEF596ABF7F87F3FBF77E /* Frameworks */,
@@ -267,6 +254,10 @@
 				D3FFE9BB25398CDA00790BFB /* PBXTargetDependency */,
 			);
 			name = CleanWarch;
+			packageProductDependencies = (
+				D3309834256D1DB7009281D3 /* Alamofire */,
+				D330983B256D1E46009281D3 /* FirebaseCrashlytics */,
+			);
 			productName = CleanWarch;
 			productReference = D3FFE9B425398CD900790BFB /* CleanWarch.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -275,7 +266,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3FFE9DE25398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch WatchKit App" */;
 			buildPhases = (
-				825DDFDC0BEB913EACD86E58 /* [CP] Check Pods Manifest.lock */,
 				D3FFE9B625398CDA00790BFB /* Resources */,
 				D3FFE9DD25398CDC00790BFB /* Embed App Extensions */,
 				0D8E5AA4769423905FE92CC9 /* Frameworks */,
@@ -286,6 +276,10 @@
 				D3FFE9CA25398CDC00790BFB /* PBXTargetDependency */,
 			);
 			name = "CleanWarch WatchKit App";
+			packageProductDependencies = (
+				D3309850256D2130009281D3 /* FirebaseCrashlytics */,
+				D3309856256D2134009281D3 /* Alamofire */,
+			);
 			productName = "CleanWarch WatchKit App";
 			productReference = D3FFE9B825398CDA00790BFB /* CleanWarch WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
@@ -294,12 +288,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3FFE9DA25398CDC00790BFB /* Build configuration list for PBXNativeTarget "CleanWarch WatchKit Extension" */;
 			buildPhases = (
-				002EA19D91F2054003FD62C0 /* [CP] Check Pods Manifest.lock */,
 				D3FFE9C325398CDC00790BFB /* Sources */,
 				D3FFE9C425398CDC00790BFB /* Frameworks */,
 				D3FFE9C525398CDC00790BFB /* Resources */,
-				2BFC952FF548636BBA55FA92 /* [CP] Embed Pods Frameworks */,
-				D35F35CB254343C800295169 /* Crashlytics */,
 				D37A6DAC255C008300E52723 /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -308,6 +299,10 @@
 				D37A6DAA255C008300E52723 /* PBXTargetDependency */,
 			);
 			name = "CleanWarch WatchKit Extension";
+			packageProductDependencies = (
+				D330984A256D1FD1009281D3 /* FirebaseCrashlytics */,
+				D330985C256D215B009281D3 /* Alamofire */,
+			);
 			productName = "CleanWarch WatchKit Extension";
 			productReference = D3FFE9C725398CDC00790BFB /* CleanWarch WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -344,6 +339,10 @@
 				Base,
 			);
 			mainGroup = D3FFE9AD25398CD900790BFB;
+			packageReferences = (
+				D3309833256D1DB7009281D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D330983A256D1E46009281D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D3FFE9B525398CD900790BFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -390,110 +389,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		002EA19D91F2054003FD62C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CleanWarch WatchKit Extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2BFC952FF548636BBA55FA92 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CleanWarch WatchKit Extension/Pods-CleanWarch WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CleanWarch WatchKit Extension/Pods-CleanWarch WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CleanWarch WatchKit Extension/Pods-CleanWarch WatchKit Extension-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		596D139734B02E02742D2AE8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CleanWarch-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		825DDFDC0BEB913EACD86E58 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CleanWarch WatchKit App-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D35F35CB254343C800295169 /* Crashlytics */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Crashlytics;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D37A6DA0255C008300E52723 /* Sources */ = {
@@ -566,7 +461,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -589,7 +483,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -711,7 +604,6 @@
 		};
 		D3FFE9DB25398CDC00790BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E83D169531463BA714438EA /* Pods-CleanWarch WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "CleanWarch WatchKit Extension/CleanWarch WatchKit Extension.entitlements";
@@ -734,7 +626,6 @@
 		};
 		D3FFE9DC25398CDC00790BFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F0FCDB4196096C282B793B3 /* Pods-CleanWarch WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "CleanWarch WatchKit Extension/CleanWarch WatchKit Extension.entitlements";
@@ -757,7 +648,6 @@
 		};
 		D3FFE9DF25398CDC00790BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36348B25EC2D146918E6423C /* Pods-CleanWarch WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -777,7 +667,6 @@
 		};
 		D3FFE9E025398CDC00790BFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 704B315F0359F78B8E584559 /* Pods-CleanWarch WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -797,7 +686,6 @@
 		};
 		D3FFE9E325398CDC00790BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A30405D9AFD7093D1984131 /* Pods-CleanWarch.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -811,7 +699,6 @@
 		};
 		D3FFE9E425398CDC00790BFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 302514707D9CCE8E12091FD1 /* Pods-CleanWarch.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -872,6 +759,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3309833256D1DB7009281D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		D330983A256D1E46009281D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3309834256D1DB7009281D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3309833256D1DB7009281D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D330983B256D1E46009281D3 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D330983A256D1E46009281D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		D330984A256D1FD1009281D3 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D330983A256D1E46009281D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		D3309850256D2130009281D3 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D330983A256D1E46009281D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		D3309856256D2134009281D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3309833256D1DB7009281D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D330985C256D215B009281D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3309833256D1DB7009281D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D330985E256D2161009281D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3309833256D1DB7009281D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D3309860256D2165009281D3 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D330983A256D1E46009281D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3FFE9AE25398CD900790BFB /* Project object */;
 }

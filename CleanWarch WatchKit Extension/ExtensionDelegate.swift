@@ -56,4 +56,22 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
         }
     }
 
+    /**
+     * Handle incoming universal links
+     */
+    func handle(_ userActivity: NSUserActivity) {
+        #if DEBUG
+        debugPrint(userActivity)
+        #endif
+    }
+
+    /**
+     * Handle incoming universal links
+     */
+    func handleUserActivity(_ userInfo: [AnyHashable : Any]?) {
+        #if DEBUG
+        debugPrint(userInfo as Any)
+        #endif
+    }
+
 }
