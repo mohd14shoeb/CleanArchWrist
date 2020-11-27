@@ -2,17 +2,17 @@
 //  ComplicationController.swift
 //  CleanWarch WatchKit Extension
 //
-//  Created by Laura on 16/10/2020.
+//  Created by Laura on 27/11/20.
 //
 
 import ClockKit
 
 
-@available(watchOSApplicationExtension 7.0, *)
 class ComplicationController: NSObject, CLKComplicationDataSource {
     
     // MARK: - Complication Configuration
 
+    @available(watchOSApplicationExtension 7.0, *)
     func getComplicationDescriptors(handler: @escaping ([CLKComplicationDescriptor]) -> Void) {
         let descriptors = [
             CLKComplicationDescriptor(identifier: "complication", displayName: "CleanWarch", supportedFamilies: CLKComplicationFamily.allCases)
@@ -23,6 +23,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
         handler(descriptors)
     }
     
+    @available(watchOSApplicationExtension 7.0, *)
     func handleSharedComplicationDescriptors(_ complicationDescriptors: [CLKComplicationDescriptor]) {
         // Do any necessary work to support these newly shared complication descriptors
     }

@@ -2,19 +2,15 @@
 //  ExtensionDelegate.swift
 //  CleanWarch WatchKit Extension
 //
-//  Created by Laura on 16/10/2020.
+//  Created by Laura on 27/11/20.
 //
 
 import WatchKit
-import Firebase
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
-
-        FirebaseConfiguration.shared.setLoggerLevel(.debug)
-        FirebaseApp.configure()
     }
 
     func applicationDidBecomeActive() {
@@ -54,24 +50,6 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
                 task.setTaskCompletedWithSnapshot(false)
             }
         }
-    }
-
-    /**
-     * Handle incoming universal links
-     */
-    func handle(_ userActivity: NSUserActivity) {
-        #if DEBUG
-        debugPrint(userActivity)
-        #endif
-    }
-
-    /**
-     * Handle incoming universal links
-     */
-    func handleUserActivity(_ userInfo: [AnyHashable : Any]?) {
-        #if DEBUG
-        debugPrint(userInfo as Any)
-        #endif
     }
 
 }

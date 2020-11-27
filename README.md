@@ -1,6 +1,6 @@
 # CleanWarch
 
-An independent watchOS app clean-architected by VIPER + Combine + SwiftUI
+An independent watchOS app clean-architected by **VIPER + Combine + SwiftUI**
 
 - [Compatibility](#compatibility)
 - [Overview](#overview)
