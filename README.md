@@ -1,17 +1,12 @@
 # CleanWarch
 
-An independent watchOS app clean-architected by **VIPER + Combine + SwiftUI**
+Collection of Apple Watch apps using **SwiftUI + Combine**
 
-- [Compatibility](#compatibility)
 - [Overview](#overview)
 - [Targets](#targets)
   * [WatchKit App](#watchKit-app)
   * [WatchKit Extension](#watchKit-extension)
 - [References](#references)
-
-## Compatibility
-
-- watchOS 6.2
 
 ## Overview
 

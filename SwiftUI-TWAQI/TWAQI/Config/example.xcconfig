@@ -1,0 +1,53 @@
+//
+//  example.xcconfig
+//  TWAQI
+//
+//  Created by kf on 22/10/19.
+//  Copyright © 2019 kf. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Please copy the file and rename to debug.xcconfig and release.xcconfig
+
+// APIs
+API_DOMAIN = https:\/\/firebasestorage.googleapis.com
+ApiEnpointCountries = /v0/b/kf-twaqi.appspot.com/o/example-payloads%2Fcountries.json?alt=media&token=96a901ae-6325-4a8f-ae5d-3ae04a21a4e3
+ApiEnpointStations = /v0/b/kf-twaqi.appspot.com/o/example-payloads%2Fstations.json?alt=media&token=c2937b0e-1391-403e-8db8-0f087f3ebf39
+ApiEnpointCurrentPollutants = /v0/b/kf-twaqi.appspot.com/o/example-payloads%2Fcurrent-pollutants.json?alt=media&token=1ba8f3fd-b0fb-44fe-a4a3-e0085a25ba1f
+ApiEnpointHistoricalPollutants = /v0/b/kf-twaqi.appspot.com/o/example-payloads%2Fhistorical-pollutants.json?alt=media&token=63729049-76eb-4836-ab28-c5dd371769ed
+
+ApiEnpointSuccessAds = /v0/b/kf-twaqi.appspot.com/o/example-payloads%2Fsuccess-ads.json?alt=media&token=5c134e38-e654-46ac-a044-9730cd3eb221
+
+// Deprecated
+FORECAST_API = https:\/\/firebasestorage.googleapis.com/v0/b/kf-twaqi.appspot.com/o/aqfn.json?alt=media&token=e790ed5f-a6aa-4b50-8473-98e68186d11b
+HISTORY_API = https:\/\/firebasestorage.googleapis.com/v0/b/kf-twaqi.appspot.com/o/history.json?alt=media&token=4ff87ac5-e117-4149-9257-4784aea2fdbe
+
+// Services
+AppCenterSecret =
+AppCenterAppSecret =
+BugsnagApiKey =
+GADApplicationIdentifier = ca-app-pub-3940256099942544~1458002511
+GMSServicesApiKey = // Required
+OneSignalAppId =
+SentryDSN =
+
+// AdMob AdUnitId
+AdUnitIdMainFooter = ca-app-pub-3940256099942544/2934735716
+AdUnitIdDetailsListFooter = ca-app-pub-3940256099942544/2934735716
+AdUnitIdDetailsFooter = ca-app-pub-3940256099942544/2934735716
+AdUnitIdForecastFooter = ca-app-pub-3940256099942544/2934735716
+AdUnitIdFavouritesFooter = ca-app-pub-3940256099942544/2934735716
+AdUnitIdSettingsFooter = ca-app-pub-3940256099942544/2934735716
+AdUnitIdHelpFooter = ca-app-pub-3940256099942544/2934735716
+
+// In-App Purchase
+InAppPurchaseProductId = test
+
+// Links
+FeedbackUrlZh = http:\/\/example.com/
+FeedbackUrlEn = http:\/\/example.com/
+PartnerUrlZh = http:\/\/example.com/
+PartnerUrlEn = http:\/\/example.com/
+BetaTesterUrl = http:\/\/example.com/
