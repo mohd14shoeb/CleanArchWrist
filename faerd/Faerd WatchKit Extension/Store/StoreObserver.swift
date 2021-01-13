@@ -52,7 +52,7 @@ class StoreObserver: NSObject, SKPaymentTransactionObserver {
     }
        
     private func fail(transaction: SKPaymentTransaction) {
-        if let transactionError = transaction.error as NSError?, let localizedDescription = transaction.error?.localizedDescription, transactionError.code != SKErrorCode.paymentCancelled.rawValue {
+        if let transactionError = transaction.error as NSError?, let localizedDescription = transaction.error?.localizedDescription, transactionError.code != SKError.Code.paymentCancelled.rawValue {
             print("Transaction error: \(localizedDescription)")
         }
         SKPaymentQueue.default().finishTransaction(transaction)

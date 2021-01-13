@@ -13,9 +13,9 @@ struct GraphQLQuery: Codable {
     let query: String
     
     // First argument is number of hours
-    let TIME_RANGE = String(12 * (60 * 60))
+    var TIME_RANGE = String(12 * (60 * 60))
     
-    let NUM_DEPARTURES = String(100)
+    var NUM_DEPARTURES = String(100)
     
     init(stopID: String) {
         
