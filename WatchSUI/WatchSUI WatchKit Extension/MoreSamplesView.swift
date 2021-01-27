@@ -15,26 +15,30 @@ struct MoreSamplesView: View {
     @State private var isEditing = false
 
     var body: some View {
-        Gauge(value: batteryLevel) {
-            Text("Battery Level")
-        }
-        LabeledGauge()
-        StyledGauge()
-
-        Slider(
-                value: $speed,
-                in: 0...100,
-                step: 5,
-                onEditingChanged: { editing in
-                    isEditing = editing
-                },
-                minimumValueLabel: Text("0"),
-                maximumValueLabel: Text("100")
-            ) {
-                Text("Speed")
+        ScrollView {
+            Gauge(value: batteryLevel) {
+                Text("Battery Level")
             }
-            Text("\(speed)")
-                .foregroundColor(isEditing ? .red : .blue)
+            LabeledGauge()
+            StyledGauge()
+
+            Slider(
+                    value: $speed,
+                    in: 0...100,
+                    step: 5,
+                    onEditingChanged: { editing in
+                        isEditing = editing
+                    },
+                    minimumValueLabel: Text("0"),
+                    maximumValueLabel: Text("100")
+                ) {
+                    Text("Speed")
+                }
+                Text("\(speed)")
+                    .foregroundColor(isEditing ? .red : .blue)
+
+            NavigationLink("Even more samples", destination: EvenMoreSamplesView())
+        }
     }
 }
 

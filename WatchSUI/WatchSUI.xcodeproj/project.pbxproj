@@ -26,6 +26,7 @@
 		C9A81FE823C04BFC00470D00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A81FE723C04BFC00470D00 /* Preview Assets.xcassets */; };
 		D35AE55B25AF42F900614951 /* SamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AE55A25AF42F900614951 /* SamplesView.swift */; };
 		D35AE56325AF466A00614951 /* MoreSamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35AE56225AF466A00614951 /* MoreSamplesView.swift */; };
+		D3794CBC25C16C9500026AC6 /* EvenMoreSamplesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3794CBB25C16C9500026AC6 /* EvenMoreSamplesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		C9A81FEA23C04BFC00470D00 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		D35AE55A25AF42F900614951 /* SamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplesView.swift; sourceTree = "<group>"; };
 		D35AE56225AF466A00614951 /* MoreSamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSamplesView.swift; sourceTree = "<group>"; };
+		D3794CBB25C16C9500026AC6 /* EvenMoreSamplesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenMoreSamplesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				C9A81FDA23C04BFB00470D00 /* ContentView.swift */,
 				D35AE55A25AF42F900614951 /* SamplesView.swift */,
 				D35AE56225AF466A00614951 /* MoreSamplesView.swift */,
+				D3794CBB25C16C9500026AC6 /* EvenMoreSamplesView.swift */,
 				C9A81FDC23C04BFB00470D00 /* HostingController.swift */,
 				C9A81FDE23C04BFB00470D00 /* ExtensionDelegate.swift */,
 				C9A81FE023C04BFB00470D00 /* NotificationController.swift */,
@@ -341,6 +344,7 @@
 				C9A81FDB23C04BFB00470D00 /* ContentView.swift in Sources */,
 				D35AE55B25AF42F900614951 /* SamplesView.swift in Sources */,
 				C9A81FE123C04BFB00470D00 /* NotificationController.swift in Sources */,
+				D3794CBC25C16C9500026AC6 /* EvenMoreSamplesView.swift in Sources */,
 				C9A81FDF23C04BFB00470D00 /* ExtensionDelegate.swift in Sources */,
 				C9A81FE323C04BFB00470D00 /* NotificationView.swift in Sources */,
 			);
@@ -505,7 +509,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchSUI WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = PPFQTYCRTS;
+				DEVELOPMENT_TEAM = LRE923483J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WatchSUI WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -528,7 +532,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchSUI WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = PPFQTYCRTS;
+				DEVELOPMENT_TEAM = LRE923483J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WatchSUI WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -551,7 +555,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PPFQTYCRTS;
+				DEVELOPMENT_TEAM = LRE923483J;
 				IBSC_MODULE = WatchSUI_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchSUI WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.WatchSUI.watchkitapp;
@@ -569,7 +573,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PPFQTYCRTS;
+				DEVELOPMENT_TEAM = LRE923483J;
 				IBSC_MODULE = WatchSUI_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchSUI WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.WatchSUI.watchkitapp;
@@ -587,7 +591,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchSUI/Preview Content\"";
-				DEVELOPMENT_TEAM = PPFQTYCRTS;
+				DEVELOPMENT_TEAM = LRE923483J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WatchSUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,7 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchSUI/Preview Content\"";
-				DEVELOPMENT_TEAM = PPFQTYCRTS;
+				DEVELOPMENT_TEAM = LRE923483J;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WatchSUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
