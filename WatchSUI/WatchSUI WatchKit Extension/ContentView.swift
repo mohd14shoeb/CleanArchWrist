@@ -10,9 +10,49 @@ import SwiftUI
 import WatchKit
 
 struct ContentView: View {
+    @State private var tabSelection = 1
 
-    @State var userName: String
-    @State var password: String
+    var body: some View {
+        TabView(selection: $tabSelection) {
+            FirstView(tabSelection: $tabSelection)
+                .tabItem {
+                    Text("Tab 1")
+                }
+                .tag(1)
+            SecondView()
+                .tabItem {
+                    Text("Tab 2")
+                }
+                .tag(2)
+        }
+    }
+}
+
+struct FirstView: View {
+    @Binding var tabSelection: Int
+
+    var body: some View {
+        NavigationView {
+            NavigationLink("Go to Child View", destination: FirstViewChild(tabSelection: $tabSelection))
+        }
+    }
+}
+
+struct FirstViewChild: View {
+    @Binding var tabSelection: Int
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+
+    var body: some View {
+        Button("Go to tab 2!", action: {
+            self.presentationMode.wrappedValue.dismiss()
+            self.tabSelection = 2
+        })
+    }
+}
+
+struct SecondView: View {
+    @State var userName: String = ""
+    @State var password: String = ""
 
     @State private var vibrateOnRing = true
     @State private var vibrateOnSilent = false
@@ -56,6 +96,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(userName: "", password: "")
+        ContentView()
     }
 }

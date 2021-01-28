@@ -12,7 +12,7 @@ import SwiftUI
 
 class HostingController: WKHostingController<ContentView> {
     override var body: ContentView {
-        return ContentView(userName: "", password: "")
+        return ContentView()
     }
 }
 
