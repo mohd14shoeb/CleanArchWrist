@@ -1,6 +1,6 @@
 # CleanWarch
 
-Collection of Apple Watch apps using **SwiftUI + Combine**
+An independent watchOS app with clean architecture (SOLID VIPER, Repository pattern, Dependency Injection, SwiftUI).
 
 - [Overview](#overview)
 - [Targets](#targets)
@@ -25,8 +25,6 @@ Xcode divides the watchOS app into two sections.
 
 - WatchKit App
 - WatchKit Extension
-
-![image](doc/watchos.png)
 
 Xcode sets the **bundle IDs** for both of the watch targets based on the container’s ID.
 - For a watch-only app, this ID is the bundle ID for the root target.
