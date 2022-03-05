@@ -11,4 +11,4 @@ An independent watchOS app with clean architecture (SOLID VIPER, Repository patt
 
 ## References
 
-- [Creating Independent watchOS Apps](https://developer.apple.com/documentation/watchkit/creating_independent_watchos_apps)
+- <a href="https://developer.apple.com/documentation/watchkit/creating_independent_watchos_apps" target="_blank">Creating Independent watchOS Apps</a>
