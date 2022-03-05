@@ -117,8 +117,8 @@
 		D3ACE24526C2873A007EF083 /* CleanWarch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D3ACE24626C2873A007EF083 /* ContentView.swift */,
 				D3ACE24826C2873A007EF083 /* CleanWarchApp.swift */,
+				D3ACE24626C2873A007EF083 /* ContentView.swift */,
 				D3ACE24A26C2873A007EF083 /* ComplicationController.swift */,
 				D3ACE24C26C2873B007EF083 /* Assets.xcassets */,
 				D3ACE25126C2873B007EF083 /* Info.plist */,
