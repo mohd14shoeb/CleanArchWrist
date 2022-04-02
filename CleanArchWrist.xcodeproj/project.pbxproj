@@ -394,8 +394,8 @@
 			isa = PBXGroup;
 			children = (
 				D338675627D3BC4E007213AF /* AppConstants.swift */,
-				D338675727D3BC4E007213AF /* NetworkClientConstants.swift */,
 				D338675827D3BC4E007213AF /* AssetsConstants.swift */,
+				D338675727D3BC4E007213AF /* NetworkClientConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";

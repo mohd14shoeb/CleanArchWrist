@@ -13,6 +13,20 @@ struct HomeView: BaseView {
 	@StateObject var viewObject: ViewObject
 
 	var body: some View {
-        Text("TODO: Module demo")
+        HomeViewBody()
 	}
 }
+
+struct HomeViewBody: View {
+    var body: some View {
+        Text("TODO: Module demo")
+    }
+}
+
+#if DEBUG
+struct HomeViewBody_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeViewBody()
+    }
+}
+#endif

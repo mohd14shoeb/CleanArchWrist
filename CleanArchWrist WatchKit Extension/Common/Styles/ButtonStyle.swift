@@ -13,7 +13,7 @@ struct ButtonStyle: PrimitiveButtonStyle {
 	func makeBody(configuration: Self.Configuration) -> some View {
 		Button(action: configuration.trigger) {
 			configuration.label
-				.padding([.leading, .trailing], 12)
+                .padding(.horizontal, 12)
 		}
 		.frame(height: 50)
 	}
