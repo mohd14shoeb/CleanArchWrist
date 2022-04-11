@@ -25,4 +25,6 @@
 
 import Foundation
 
-protocol HomeInteractorInput {}
+protocol HomeInteractorInput {
+    func onRetrieve(completion: @escaping Handler<HomeInteractor.BusinessObject>)
+}

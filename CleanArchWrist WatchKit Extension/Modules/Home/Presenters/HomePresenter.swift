@@ -18,4 +18,19 @@ class HomePresenter: BasePresenter {
     }
 }
 
-extension HomePresenter: HomeViewOutput {}
+extension HomePresenter: HomeViewOutput {
+    func onRetrieve(_ viewObject: HomeView.ViewObject?) {
+        interactor.onRetrieve { result in
+            switch result {
+            case .success(let businessObject):
+                let mappedVO = try? HomeMapper().map(input: businessObject)
+                viewObject?.state =? mappedVO?.state
+                viewObject?.isRequesting =? mappedVO?.isRequesting
+                viewObject?.viewModel =? mappedVO?.viewModel
+
+            case .failure:
+                viewObject?.isRequesting = false
+            }
+        }
+    }
+}

@@ -35,10 +35,9 @@
 		D338689027D3BC4F007213AF /* HomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338669E27D3BC4E007213AF /* HomeInteractorInput.swift */; };
 		D338689327D3BC4F007213AF /* HomeOnRetrieveUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33866A227D3BC4E007213AF /* HomeOnRetrieveUseCase.swift */; };
 		D33868FB27D3BC4F007213AF /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338675627D3BC4E007213AF /* AppConstants.swift */; };
-		D33868FC27D3BC4F007213AF /* NetworkClientConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338675727D3BC4E007213AF /* NetworkClientConstants.swift */; };
 		D33868FD27D3BC4F007213AF /* AssetsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338675827D3BC4E007213AF /* AssetsConstants.swift */; };
 		D338690627D3BC4F007213AF /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338676D27D3BC4E007213AF /* Repository.swift */; };
-		D338690727D3BC4F007213AF /* Repository+FundStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338677027D3BC4E007213AF /* Repository+FundStore.swift */; };
+		D338690727D3BC4F007213AF /* Repository+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338677027D3BC4E007213AF /* Repository+Home.swift */; };
 		D338690C27D3BC4F007213AF /* DatabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338677827D3BC4E007213AF /* DatabaseClient.swift */; };
 		D338690D27D3BC4F007213AF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338677A27D3BC4E007213AF /* User.swift */; };
 		D338690E27D3BC4F007213AF /* NSError+Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338677C27D3BC4E007213AF /* NSError+Generic.swift */; };
@@ -48,6 +47,9 @@
 		D338691E27D4A200007213AF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D338691D27D4A200007213AF /* Realm */; };
 		D338692027D4A200007213AF /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D338691F27D4A200007213AF /* RealmSwift */; };
 		D338692327D4A388007213AF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D338692227D4A388007213AF /* Alamofire */; };
+		D394E7C72802DE12004DBB91 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394E7C62802DE12004DBB91 /* Page.swift */; };
+		D394E7C92802DFE8004DBB91 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394E7C82802DFE8004DBB91 /* Topic.swift */; };
+		D394E7CB2802E06D004DBB91 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394E7CA2802E06D004DBB91 /* Index.swift */; };
 		D3ACE23626C28738007EF083 /* CleanArchWrist WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3ACE23526C28738007EF083 /* CleanArchWrist WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D3ACE23B26C2873A007EF083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3ACE23A26C2873A007EF083 /* Assets.xcassets */; };
 		D3ACE24226C2873A007EF083 /* CleanArchWrist WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3ACE24126C2873A007EF083 /* CleanArchWrist WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -128,10 +130,9 @@
 		D338669E27D3BC4E007213AF /* HomeInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorInput.swift; sourceTree = "<group>"; };
 		D33866A227D3BC4E007213AF /* HomeOnRetrieveUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeOnRetrieveUseCase.swift; sourceTree = "<group>"; };
 		D338675627D3BC4E007213AF /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		D338675727D3BC4E007213AF /* NetworkClientConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClientConstants.swift; sourceTree = "<group>"; };
 		D338675827D3BC4E007213AF /* AssetsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsConstants.swift; sourceTree = "<group>"; };
 		D338676D27D3BC4E007213AF /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		D338677027D3BC4E007213AF /* Repository+FundStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Repository+FundStore.swift"; sourceTree = "<group>"; };
+		D338677027D3BC4E007213AF /* Repository+Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Repository+Home.swift"; sourceTree = "<group>"; };
 		D338677827D3BC4E007213AF /* DatabaseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseClient.swift; sourceTree = "<group>"; };
 		D338677A27D3BC4E007213AF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D338677C27D3BC4E007213AF /* NSError+Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Generic.swift"; sourceTree = "<group>"; };
@@ -139,6 +140,9 @@
 		D338677F27D3BC4E007213AF /* Operator+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Custom.swift"; sourceTree = "<group>"; };
 		D338691327D3BC68007213AF /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		D33D1C6227D51D5000170A06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D394E7C62802DE12004DBB91 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		D394E7C82802DFE8004DBB91 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		D394E7CA2802E06D004DBB91 /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
 		D3ACE23126C28738007EF083 /* CleanArchWrist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanArchWrist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3ACE23526C28738007EF083 /* CleanArchWrist WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanArchWrist WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3ACE23A26C2873A007EF083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -395,7 +399,6 @@
 			children = (
 				D338675627D3BC4E007213AF /* AppConstants.swift */,
 				D338675827D3BC4E007213AF /* AssetsConstants.swift */,
-				D338675727D3BC4E007213AF /* NetworkClientConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			isa = PBXGroup;
 			children = (
 				D338677827D3BC4E007213AF /* DatabaseClient.swift */,
+				D394E7C52802DDB2004DBB91 /* Persisted */,
 				D338677927D3BC4E007213AF /* Domain */,
 				D338675A27D3BC4E007213AF /* Repository */,
 			);
@@ -414,7 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				D338676D27D3BC4E007213AF /* Repository.swift */,
-				D338677027D3BC4E007213AF /* Repository+FundStore.swift */,
+				D338677027D3BC4E007213AF /* Repository+Home.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -450,6 +454,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D394E7C52802DDB2004DBB91 /* Persisted */ = {
+			isa = PBXGroup;
+			children = (
+				D394E7CA2802E06D004DBB91 /* Index.swift */,
+				D394E7C82802DFE8004DBB91 /* Topic.swift */,
+				D394E7C62802DE12004DBB91 /* Page.swift */,
+			);
+			path = Persisted;
 			sourceTree = "<group>";
 		};
 		D3ACE22A26C28738007EF083 = {
@@ -668,7 +682,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33868FC27D3BC4F007213AF /* NetworkClientConstants.swift in Sources */,
 				D338647927D3BC1A007213AF /* ButtonStyle.swift in Sources */,
 				D338691127D3BC4F007213AF /* Operator+Custom.swift in Sources */,
 				D338690627D3BC4F007213AF /* Repository.swift in Sources */,
@@ -676,6 +689,7 @@
 				D338688927D3BC4F007213AF /* HomeView.swift in Sources */,
 				D338690C27D3BC4F007213AF /* DatabaseClient.swift in Sources */,
 				D338646627D3BBF7007213AF /* BaseUseCase.swift in Sources */,
+				D394E7CB2802E06D004DBB91 /* Index.swift in Sources */,
 				D338646C27D3BBF7007213AF /* BasePresenter.swift in Sources */,
 				D338646827D3BBF7007213AF /* BaseUseCaseExecutor.swift in Sources */,
 				D338688E27D3BC4F007213AF /* HomeViewOutput.swift in Sources */,
@@ -684,7 +698,7 @@
 				D338646727D3BBF7007213AF /* BaseWireframe.swift in Sources */,
 				D338688527D3BC4F007213AF /* HomeInteractor.swift in Sources */,
 				D338645927D3B88C007213AF /* AppEnvironment.swift in Sources */,
-				D338690727D3BC4F007213AF /* Repository+FundStore.swift in Sources */,
+				D338690727D3BC4F007213AF /* Repository+Home.swift in Sources */,
 				D3ACE24926C2873A007EF083 /* CleanWarchApp.swift in Sources */,
 				D3ACE24B26C2873A007EF083 /* ComplicationController.swift in Sources */,
 				D338690F27D3BC4F007213AF /* String+Custom.swift in Sources */,
@@ -694,6 +708,7 @@
 				D338690D27D3BC4F007213AF /* User.swift in Sources */,
 				D338688427D3BC4F007213AF /* HomePresenter.swift in Sources */,
 				D338688227D3BC4F007213AF /* HomeParams.swift in Sources */,
+				D394E7C92802DFE8004DBB91 /* Topic.swift in Sources */,
 				D338688B27D3BC4F007213AF /* HomeBO.swift in Sources */,
 				D338689327D3BC4F007213AF /* HomeOnRetrieveUseCase.swift in Sources */,
 				D338688A27D3BC4F007213AF /* HomeViewModel.swift in Sources */,
@@ -702,6 +717,7 @@
 				D338646D27D3BBF7007213AF /* BaseMapper.swift in Sources */,
 				D338646927D3BBF7007213AF /* BaseInteractor.swift in Sources */,
 				D338689027D3BC4F007213AF /* HomeInteractorInput.swift in Sources */,
+				D394E7C72802DE12004DBB91 /* Page.swift in Sources */,
 				D338688F27D3BC4F007213AF /* HomeWireframeInput.swift in Sources */,
 				D338688327D3BC4F007213AF /* HomeAssembly.swift in Sources */,
 				D338688D27D3BC4F007213AF /* HomeMapper.swift in Sources */,
@@ -786,6 +802,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -843,6 +860,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -866,7 +884,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
 			};
 			name = Debug;
 		};
@@ -890,7 +907,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
 			};
 			name = Release;
 		};
@@ -910,7 +926,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
 			};
 			name = Debug;
 		};
@@ -930,7 +945,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.4;
 			};
 			name = Release;
 		};
@@ -938,9 +952,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PN4RS9H9PZ;
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = es.digio.CleanArchWrist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -951,9 +963,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PN4RS9H9PZ;
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = es.digio.CleanArchWrist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

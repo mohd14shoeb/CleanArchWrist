@@ -13,20 +13,34 @@ struct HomeView: BaseView {
 	@StateObject var viewObject: ViewObject
 
 	var body: some View {
-        HomeViewBody()
+        switch viewObject.state {
+        case .none, .main:
+            HomeViewBody(model: viewObject.viewModel)
+                .task {
+                    output?.onRetrieve(viewObject)
+                }
+        }
 	}
 }
 
 struct HomeViewBody: View {
+    let model: HomeViewModel?
+
     var body: some View {
-        Text("TODO: Module demo")
+        ScrollView(.vertical) {
+            LazyVStack(spacing: 0) {
+                if let topics = model?.topics {
+                    Text(topics.first ?? "")
+                }
+            }
+        }
     }
 }
 
 #if DEBUG
 struct HomeViewBody_Previews: PreviewProvider {
     static var previews: some View {
-        HomeViewBody()
+        HomeViewBody(model: HomeViewModel(topics: []))
     }
 }
 #endif

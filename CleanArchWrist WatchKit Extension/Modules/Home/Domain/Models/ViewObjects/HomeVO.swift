@@ -9,17 +9,23 @@
 import Foundation
 
 enum HomeState {
-	case idle
+	case main
 }
 
 extension HomeView {
 	class ViewObject: ObservableObject {
 		@Published var state: HomeState?
+        @Published var isRequesting: Bool?
+        @Published var viewModel: HomeViewModel?
 
         init(
-            state: HomeState? = nil
+            state: HomeState? = nil,
+            isRequesting: Bool? = nil,
+            viewModel: HomeViewModel? = nil
         ) {
 			self.state = state
+            self.isRequesting = isRequesting
+            self.viewModel = viewModel
 		}
 	}
 }

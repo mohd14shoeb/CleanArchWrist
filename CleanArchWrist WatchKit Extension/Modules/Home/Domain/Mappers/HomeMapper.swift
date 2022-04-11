@@ -12,7 +12,9 @@ final class HomeMapper: BaseMapper<HomeInteractor.BusinessObject, HomeView.ViewO
 	init() {
 		super.init { input -> HomeView.ViewObject in
 			return HomeView.ViewObject(
-                state: input.viewState
+                state: input.viewState,
+                isRequesting: input.isRequesting,
+                viewModel: HomeViewModel.mapFromAPI(input.indexModel)
             )
 		}
 	}

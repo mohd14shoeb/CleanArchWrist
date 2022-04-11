@@ -15,4 +15,6 @@
 
 import Foundation
 
-protocol HomeViewOutput: ViewOutput {}
+protocol HomeViewOutput: ViewOutput {
+    func onRetrieve(_ viewObject: HomeView.ViewObject?)
+}

@@ -8,4 +8,16 @@
 
 import Foundation
 
-struct HomeViewModel {}
+struct HomeViewModel {
+    let topics: [String]?
+
+    static func mapFromAPI(_ APIModel: Index?) -> HomeViewModel? {
+        guard let APIModel = APIModel else {
+            return nil
+        }
+
+        return HomeViewModel(
+            topics: APIModel.topics.compactMap { $0.title }
+        )
+    }
+}

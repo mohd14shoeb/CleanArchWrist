@@ -11,7 +11,7 @@ import SwiftUI
 struct CleanArchWristApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeWireframe(params: HomeParams(initialState: .idle)).view
+            HomeWireframe(params: HomeParams(initialState: .main)).view
         }
     }
 }

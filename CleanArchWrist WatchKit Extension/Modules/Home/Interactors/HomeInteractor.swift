@@ -26,4 +26,8 @@ class HomeInteractor: BaseInteractor {
     }
 }
 
-extension HomeInteractor: HomeInteractorInput {}
+extension HomeInteractor: HomeInteractorInput {
+    func onRetrieve(completion: @escaping Handler<BusinessObject>) {
+        useCaseExecutor.execute(onRetrieveUseCase, completion: completion)
+    }
+}

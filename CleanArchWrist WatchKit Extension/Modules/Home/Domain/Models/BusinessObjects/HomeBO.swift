@@ -12,13 +12,16 @@ extension HomeInteractor {
     struct BusinessObject {
 		let viewState: HomeState?
         let isRequesting: Bool?
+        let indexModel: Index?
 
         init(
             viewState: HomeState? = nil,
-            isRequesting: Bool? = nil
+            isRequesting: Bool? = nil,
+            indexModel: Index? = nil
         ) {
             self.viewState = viewState
             self.isRequesting = isRequesting
+            self.indexModel = indexModel
         }
     }
 }

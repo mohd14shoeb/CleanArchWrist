@@ -10,7 +10,6 @@ public protocol BaseUseCase {
     associatedtype Params
     associatedtype Response
     func execute(completion: @escaping Handler<Response>)
-	func execute(with params: Params)
     func execute(with params: Params, completion: @escaping Handler<Response>)
 
     var repository: Repository { get }
@@ -20,10 +19,6 @@ public extension BaseUseCase {
     func execute(completion: @escaping Handler<Response>) {
         fatalError("This method should be overriden")
     }
-
-	func execute(with params: Params) {
-		fatalError("This method should be overriden")
-	}
 
     func execute(with params: Params, completion: @escaping Handler<Response>) {
         fatalError("This method should be overriden")
