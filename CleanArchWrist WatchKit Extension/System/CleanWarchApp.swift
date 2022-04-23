@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct CleanArchWristApp: App {
+    let appEnvironment = AppEnvironment()
+
     var body: some Scene {
         WindowGroup {
-            HomeWireframe(params: HomeParams(initialState: .main)).view
+            NavigationView {
+                HomeWireframe(params: HomeParams(initialState: .main)).view
+            }
+            .environmentObject(appEnvironment)
         }
     }
 }

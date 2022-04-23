@@ -1,5 +1,5 @@
 //
-//  HomeViewOutput.swift
+//  DetailViewOutput.swift
 //  CleanArchWrist WatchKit Extension
 //
 //  Created by Laura on 12/1/22.
@@ -15,7 +15,6 @@
 
 import Foundation
 
-protocol HomeViewOutput: ViewOutput {
-    func onRetrieve(_ viewObject: HomeView.ViewObject?)
-    func onTapCell(_ link: String)
+protocol DetailViewOutput: ViewOutput {
+    func onRetrieve(_ viewObject: DetailView.ViewObject?)
 }

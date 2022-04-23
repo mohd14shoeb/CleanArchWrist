@@ -1,5 +1,5 @@
 //
-//  HomePresenter.swift
+//  DetailPresenter.swift
 //  CleanArchWrist WatchKit Extension
 //
 //  Created by Laura on 12/1/22.
@@ -8,22 +8,22 @@
 
 import SwiftUI
 
-class HomePresenter: BasePresenter {
-    var wireframeInput: HomeWireframeInput?
+class DetailPresenter: BasePresenter {
+    var wireframeInput: DetailWireframeInput?
 
-    private let interactor: HomeInteractor
+    private let interactor: DetailInteractor
 
-    init(interactor: HomeInteractor) {
+    init(interactor: DetailInteractor) {
         self.interactor = interactor
     }
 }
 
-extension HomePresenter: HomeViewOutput {
-    func onRetrieve(_ viewObject: HomeView.ViewObject?) {
-        interactor.onRetrieve { result in
+extension DetailPresenter: DetailViewOutput {
+    func onRetrieve(_ viewObject: DetailView.ViewObject?) {
+        interactor.onRetrieve(link: viewObject?.viewModel?.link) { result in
             switch result {
             case .success(let businessObject):
-                let mappedVO = try? HomeMapper().map(input: businessObject)
+                let mappedVO = try? DetailMapper().map(input: businessObject)
                 viewObject?.state =? mappedVO?.state
                 viewObject?.isRequesting =? mappedVO?.isRequesting
                 viewObject?.viewModel =? mappedVO?.viewModel
@@ -32,9 +32,5 @@ extension HomePresenter: HomeViewOutput {
                 viewObject?.isRequesting = false
             }
         }
-    }
-
-    func onTapCell(_ link: String) {
-        print("tapped")
     }
 }

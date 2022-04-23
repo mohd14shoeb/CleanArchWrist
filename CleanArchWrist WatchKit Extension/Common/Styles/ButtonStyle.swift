@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct ButtonStyle: PrimitiveButtonStyle {
-	let isSelected: Bool
-
 	func makeBody(configuration: Self.Configuration) -> some View {
 		Button(action: configuration.trigger) {
 			configuration.label
-                .padding(.horizontal, 12)
+                .modifier(TextModifier())
 		}
-		.frame(height: 50)
+		.padding()
 	}
 }

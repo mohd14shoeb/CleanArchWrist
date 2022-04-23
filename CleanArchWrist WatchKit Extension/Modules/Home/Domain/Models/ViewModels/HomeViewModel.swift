@@ -9,7 +9,12 @@
 import Foundation
 
 struct HomeViewModel {
-    let topics: [String]?
+    let topics: [ViewTopic]?
+
+    struct ViewTopic: Hashable {
+        let title: String?
+        let link: String?
+    }
 
     static func mapFromAPI(_ APIModel: Index?) -> HomeViewModel? {
         guard let APIModel = APIModel else {
@@ -17,7 +22,7 @@ struct HomeViewModel {
         }
 
         return HomeViewModel(
-            topics: APIModel.topics.compactMap { $0.title }
+            topics: APIModel.topics.compactMap { ViewTopic(title: $0.title, link: $0.link) }
         )
     }
 }

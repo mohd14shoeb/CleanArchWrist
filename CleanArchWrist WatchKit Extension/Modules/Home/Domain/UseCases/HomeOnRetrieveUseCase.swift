@@ -2,7 +2,7 @@
 //  HomeOnRetrieveUseCase.swift
 //  CleanArchWrist WatchKit Extension
 //
-//  Created by Agustin Ovari on 18/1/22.
+//  Created by Laura on 12/1/22.
 //  Copyright © 2022 Söderberg & Partners. All rights reserved.
 //
 
