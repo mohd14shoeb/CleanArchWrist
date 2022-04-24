@@ -10,8 +10,7 @@ import SwiftUI
 enum AppConstants {
 	static let helpUrl = "http://www.google.es"
 
-    enum BottomBar {
+    enum BottomMenuSelection {
         case home
-        case menu
     }
 }

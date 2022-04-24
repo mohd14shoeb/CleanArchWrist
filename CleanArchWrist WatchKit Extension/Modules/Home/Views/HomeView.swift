@@ -14,12 +14,10 @@ struct HomeView: BaseView {
 
 	var body: some View {
         switch viewObject.state {
-        case .none, .main:
-            HomeViewBody(model: viewObject.viewModel) { link in
-                output?.onTapCell(link)
-            }
+        case .none, .`default`:
+            HomeViewBody(model: viewObject.viewModel)
             .task {
-                output?.onRetrieve(viewObject)
+                output?.onRetrieve(viewObject: viewObject)
             }
         }
 	}
@@ -27,7 +25,6 @@ struct HomeView: BaseView {
 
 struct HomeViewBody: View {
     let model: HomeViewModel?
-    let action: ((String) -> Void)?
 
     var body: some View {
         ScrollView(.vertical) {
@@ -35,9 +32,7 @@ struct HomeViewBody: View {
                 if let topics = model?.topics {
                     ForEach(topics, id: \.self) { topic in
                         MainCellView(label: topic.title) {
-                            if let link = topic.link {
-                                action?(link)
-                            }
+                            DetailWireframe(params: DetailParams(link: topic.link)).view
                         }
                     }
                 }
@@ -49,7 +44,7 @@ struct HomeViewBody: View {
 #if DEBUG
 struct HomeViewBody_Previews: PreviewProvider {
     static var previews: some View {
-        HomeViewBody(model: HomeViewModel(topics: []), action: nil)
+        HomeViewBody(model: HomeViewModel(topics: []))
     }
 }
 #endif

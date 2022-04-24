@@ -9,7 +9,7 @@
 import Foundation
 
 enum HomeState {
-	case main
+	case `default`
 }
 
 extension HomeView {

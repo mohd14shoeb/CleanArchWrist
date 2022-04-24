@@ -15,7 +15,7 @@ struct DatabaseClient {
             return realm
         } catch {
             #if DEBUG
-            print(error)
+            debugPrint(error)
             #endif
             return nil
         }

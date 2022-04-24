@@ -9,14 +9,27 @@ import SwiftUI
 
 @main
 struct CleanArchWristApp: App {
-    let appEnvironment = AppEnvironment()
+    @WKExtensionDelegateAdaptor var extensionDelegate: ExtensionDelegate
+    @StateObject var appEnvironment = AppEnvironment()
 
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                HomeWireframe(params: HomeParams(initialState: .main)).view
+            TabView(selection: $appEnvironment.bottomMenuSelection) {
+                // Tab 1
+                HomeWireframe(params: HomeParams(initialState: .default)).view
+                    .modifier(BottomMenuModifier(
+                        title: "moduleHomeTitle".localized(),
+                        image: Assets.Images.iconApple,
+                        tag: .home
+                    ))
             }
             .environmentObject(appEnvironment)
         }
     }
+}
+
+class ExtensionDelegate: NSObject, WKExtensionDelegate {
+    var rootInterfaceController: WKInterfaceController?
+
+    func applicationDidFinishLaunching() {}
 }

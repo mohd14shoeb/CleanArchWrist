@@ -9,7 +9,7 @@
 import Foundation
 
 enum DetailState {
-	case main
+	case `default`
 }
 
 extension DetailView {

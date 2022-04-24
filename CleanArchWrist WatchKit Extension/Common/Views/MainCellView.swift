@@ -7,14 +7,12 @@
 
 import SwiftUI
 
-struct MainCellView: View {
+struct MainCellView<DestinationView: View>: View {
     let label: String?
-    let action: (() -> Void)?
+    @ViewBuilder var destinationView: DestinationView
 
     var body: some View {
-        Button {
-            action?()
-        } label: {
+        NavigationLink(destination: destinationView) {
             Text(label ?? "")
         }
         .buttonStyle(ButtonStyle())

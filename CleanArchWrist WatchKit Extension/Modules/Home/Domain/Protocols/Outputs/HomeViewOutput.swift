@@ -16,6 +16,5 @@
 import Foundation
 
 protocol HomeViewOutput: ViewOutput {
-    func onRetrieve(_ viewObject: HomeView.ViewObject?)
-    func onTapCell(_ link: String)
+    func onRetrieve(viewObject: HomeView.ViewObject?)
 }

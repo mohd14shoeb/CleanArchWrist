@@ -20,6 +20,6 @@ struct DetailOnRetrieveUseCase: BaseUseCase {
 
     func execute(with params: String?, completion: @escaping Handler<Response>) {
         // TODO: request markdown
-        print(params)
+        print("Link: \(params ?? "")")
     }
 }

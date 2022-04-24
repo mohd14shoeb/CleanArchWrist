@@ -19,7 +19,7 @@ class HomePresenter: BasePresenter {
 }
 
 extension HomePresenter: HomeViewOutput {
-    func onRetrieve(_ viewObject: HomeView.ViewObject?) {
+    func onRetrieve(viewObject: HomeView.ViewObject?) {
         interactor.onRetrieve { result in
             switch result {
             case .success(let businessObject):
@@ -32,9 +32,5 @@ extension HomePresenter: HomeViewOutput {
                 viewObject?.isRequesting = false
             }
         }
-    }
-
-    func onTapCell(_ link: String) {
-        print("tapped")
     }
 }

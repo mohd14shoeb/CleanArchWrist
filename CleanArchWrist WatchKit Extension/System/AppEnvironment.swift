@@ -8,5 +8,9 @@
 import SwiftUI
 
 final class AppEnvironment: ObservableObject {
-    @Published var bottomMenuSelection: AppConstants.BottomBar = .home
+    @Published var bottomMenuSelection: AppConstants.BottomMenuSelection = .home
+
+    var coordinator: WKInterfaceController? {
+        WKExtension.shared().visibleInterfaceController
+    }
 }

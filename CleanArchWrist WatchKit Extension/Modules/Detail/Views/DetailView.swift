@@ -14,7 +14,7 @@ struct DetailView: BaseView {
 
 	var body: some View {
         switch viewObject.state {
-        case .none, .main:
+        case .none, .`default`:
             DetailViewBody(model: viewObject.viewModel)
             .task {
                 output?.onRetrieve(viewObject)

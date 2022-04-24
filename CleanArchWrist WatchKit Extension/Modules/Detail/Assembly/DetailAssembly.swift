@@ -18,7 +18,8 @@ DetailView
 
     override func resolve() -> DetailView {
 		let initialViewObject = DetailView.ViewObject(
-			state: params.initialState
+			state: params.initialState,
+            viewModel: DetailViewModel(link: params.link)
 		)
 		return DetailView(viewObject: initialViewObject)
     }

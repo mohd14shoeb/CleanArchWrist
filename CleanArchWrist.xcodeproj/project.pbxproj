@@ -72,6 +72,7 @@
 		D3ACE24B26C2873A007EF083 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACE24A26C2873A007EF083 /* ComplicationController.swift */; };
 		D3ACE24D26C2873B007EF083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3ACE24C26C2873B007EF083 /* Assets.xcassets */; };
 		D3ACE25026C2873B007EF083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3ACE24F26C2873B007EF083 /* Preview Assets.xcassets */; };
+		D3C266402813FA4F00FD5FC0 /* BottomMenuModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2663F2813FA4F00FD5FC0 /* BottomMenuModifier.swift */; };
 		D3E4915A2813DBA900FE8098 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3E491472813DBA900FE8098 /* Inter-Bold.otf */; };
 		D3E4915B2813DBA900FE8098 /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3E491482813DBA900FE8098 /* Inter-Regular.otf */; };
 		D3E4915C2813DBA900FE8098 /* Inter-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3E491492813DBA900FE8098 /* Inter-SemiBoldItalic.otf */; };
@@ -201,6 +202,7 @@
 		D3ACE24C26C2873B007EF083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3ACE24F26C2873B007EF083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3ACE25126C2873B007EF083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C2663F2813FA4F00FD5FC0 /* BottomMenuModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuModifier.swift; sourceTree = "<group>"; };
 		D3E491472813DBA900FE8098 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
 		D3E491482813DBA900FE8098 /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
 		D3E491492813DBA900FE8098 /* Inter-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBoldItalic.otf"; sourceTree = "<group>"; };
@@ -449,6 +451,7 @@
 		D338647027D3BC1A007213AF /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				D3C2663F2813FA4F00FD5FC0 /* BottomMenuModifier.swift */,
 				D338647127D3BC1A007213AF /* TextModifier.swift */,
 			);
 			path = Modifiers;
@@ -992,6 +995,7 @@
 				D338688B27D3BC4F007213AF /* HomeBO.swift in Sources */,
 				D338689327D3BC4F007213AF /* HomeOnRetrieveUseCase.swift in Sources */,
 				D338688A27D3BC4F007213AF /* HomeViewModel.swift in Sources */,
+				D3C266402813FA4F00FD5FC0 /* BottomMenuModifier.swift in Sources */,
 				D338688127D3BC4F007213AF /* HomeWireframe.swift in Sources */,
 				D33868FD27D3BC4F007213AF /* AssetsConstants.swift in Sources */,
 				D330F34E280DEFD4008A668C /* DetailVO.swift in Sources */,
